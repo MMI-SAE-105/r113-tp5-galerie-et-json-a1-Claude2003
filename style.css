@@ -29,3 +29,12 @@
     border-radius: 50%;/* Rounded border */
 }
 
+.overlay>figure {
+    margin: 0;/* No margin */
+    padding: 1rem;/* 1rem padding */
+    border: 2px solid #fff;/* White border of 2px */
+}
+.overlay>figure>img {
+    max-width: 100%;/* Max width 100% for responsive image */
+    height: auto;/* Height auto for keeping the ratio */
+}
