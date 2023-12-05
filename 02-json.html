@@ -32,10 +32,10 @@ données: [
     ],
 }">
 
-<template x-for="">
+<template x-for="obj in donnees">
     <li>
-        <span x-text="">nom</span>
-        <a :href="" x-text="">projet</a>
+        <span x-text="obj.nom">nom</span>
+        <a :href="obj.url" x-text="obj.projet">projet</a>
     </li>
 </template>
 
