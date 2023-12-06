@@ -12,6 +12,7 @@
     image: 'https://picsum.photos/id/237/200/300',
 }">
     <h1>Galerie</h1>
+
            
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, eveniet. Voluptas excepturi quis debitis! Voluptatum, possimus minima animi facere commodi modi error accusantium, vitae debitis odit sit ad saepe dolore?</p>
     <div class="overlay"  x-show="image" @click="image = null"  @keyup.escape.window="image = null" >
@@ -20,5 +21,12 @@
 
         </figure>
     </div>
+
+    <img src="https://picsum.photos/id/236/40/60" alt="miniature chiot"
+    @click="imag = 'https://picsum.photos/id/236/200/300'">
+
+<img src="https://picsum.photos/id/237/40/60" alt="miniature chiot"
+    @click="image = 'https://picsum.photos/id/237/200/300'"> 
+
 </body>
 </html>
